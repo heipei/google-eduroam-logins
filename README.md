@@ -1,14 +1,16 @@
-README for Google Eduroam Logins
-********************************
+Google Eduroam Logins
+=====================
+
+Author: Johannes Gilger <heipei@hackvalue.de>
 
 Description
-===========
+-----------
 
 This is a simple project meant to extract logins from radsecproxy-logs in order
 to display login-counts from different institutions on a map.
 
 Installation
-============
+------------
 
 In order to use this you'll need the following:
 - ruby installed
@@ -17,10 +19,10 @@ In order to use this you'll need the following:
 - a valid Google Maps API key
 
 Usage
-=====
+-----
 
 Start by downloading an up-to-date version of GeoLiteCity.dat (using the
-update_db.sh script). Or use the commercial version if you've got that ;)
+update\_db.sh script). Or use the commercial version if you've got that ;)
 
 generate.sh then gets the relevant information from the MySQL server (make sure
 that .passwd with your SQL-pw exists) and returns it in two columns:
@@ -32,7 +34,7 @@ included in the html and used to fill out the corresponding divs.
 
 
 Development
-===========
+-----------
 
 Outstanding bugs and problems are documented in the TODO. Patches to general
 problems (i.e. not special to your local setup) are gladly accepted at
@@ -40,6 +42,6 @@ heipei@hackvalue.de. If possible use git to manage the source and generate
 commits as patches (see git format-patch).
 
 License
-=======
+-------
 
-Licensed as open source under the GPLv2. Have fun ;)
+Licensed as Open Source under the GPLv2. Have fun ;)
